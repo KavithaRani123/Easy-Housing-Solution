@@ -1,0 +1,84 @@
+﻿@model EasyHousingSolutions_WebUI.Models.EhsProperty
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>EhsProperty</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PropertyId" class="control-label"></label>
+                <input asp-for="PropertyId" class="form-control" />
+                <span asp-validation-for="PropertyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PropertyName" class="control-label"></label>
+                <input asp-for="PropertyName" class="form-control" />
+                <span asp-validation-for="PropertyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PropertyType" class="control-label"></label>
+                <input asp-for="PropertyType" class="form-control" />
+                <span asp-validation-for="PropertyType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PropertyOption" class="control-label"></label>
+                <input asp-for="PropertyOption" class="form-control" />
+                <span asp-validation-for="PropertyOption" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PriceRange" class="control-label"></label>
+                <input asp-for="PriceRange" class="form-control" />
+                <span asp-validation-for="PriceRange" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InitialDeposit" class="control-label"></label>
+                <input asp-for="InitialDeposit" class="form-control" />
+                <span asp-validation-for="InitialDeposit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LandMark" class="control-label"></label>
+                <input asp-for="LandMark" class="form-control" />
+                <span asp-validation-for="LandMark" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="SellerId" class="control-label"></label>
+                <input asp-for="SellerId" class="form-control" />
+                <span asp-validation-for="SellerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="LogOut">LogOut</a>
+        </li>
+        </ul>
+    </div>
+<h3>@ViewBag.Message</h3>
+<center>
+
+<h2><u><i>You Are <b>Authorized </b>To View All The Detalis Of Below Mentioned Modules</i></u> </h2>
+</center>
+
+<p>
+    
+    <img src="https://img.freepik.com/free-photo/real-estate-agent-with-house-model-keys_1150-17813.jpg?size=626&ext=jpg&ga=GA1.2.1477718873.1656780564" alt="Logo"class="center"></p>
+<li class="item"><a class="link text-light" asp-area="" asp-controller="EhsSellers" asp-action="Index"><h3>𝐒𝐞𝐥𝐥𝐞𝐫𝐬</h3></a></li>
+<p><img src="https://img.freepik.com/free-photo/business-man-create-design-house-home_35761-59.jpg?size=626&ext=jpg&ga=GA1.2.1477718873.1656780564" alt="Logo"class="center"></p>
+<li class="item"><a class="link text-light" asp-area="" asp-controller="EhsBuyers" asp-action="Index"><h3>𝐁𝐮𝐲𝐞𝐫𝐬</h3></a></li>
+<p><img src="https://img.freepik.com/free-photo/aerial-photography-villa-complex-luxury-resort_1205-9753.jpg?size=626&ext=jpg&ga=GA1.2.1477718873.1656780564" alt="Logo"class="center"></p>
+<li class="item"><a class="link text-light" asp-area="" asp-controller="EhsProperties" asp-action="Index"><h3>𝐏𝐫𝐨𝐩𝐞𝐫𝐭𝐢𝐞𝐬</h3></a></li>
+
+
+
+
+
+<style>
+ 
+    p{
+        border-radius:400px;
+    }
+
+  h2{
+      color:cyan;
+      text-align:center;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  h3{
+      color:lightgreen;
+      font:xx-large;
+      text-align:center;
+  }
+  
+  
+  body{
+  background-image: url('https://img.freepik.com/free-photo/abstract-urban-night-light-bokeh-defocused-background_1421-468.jpg?size=626&ext=jpg&ga=GA1.2.1477718873.1656780564');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+  
+  
+
+</style>
+
+
+

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EasyHousingSolutions_WebUI.Models.EhsCart>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CartId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BuyerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PropertyId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CartId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PropertyId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.  CartId}) |
+                @Html.ActionLink("Details", "Details", new {  id=item.CartId  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.CartId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

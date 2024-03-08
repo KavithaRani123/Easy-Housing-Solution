@@ -1,0 +1,204 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EasyHousingSolutions_WebUI
+build_property.RootNamespace = EasyHousingSolutions_WebUI
+build_property.ProjectDir = E:\final proj\EasyHousingSolution\EasyHousingSolutions_WebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\final proj\EasyHousingSolution\EasyHousingSolutions_WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/AdminHome/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/AdminHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Auth/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Auth/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Buyers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Buyers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Buyers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Buyers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Buyers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsBuyers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQnV5ZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsBuyers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQnV5ZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsBuyers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQnV5ZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsBuyers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQnV5ZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsBuyers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQnV5ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCarts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2FydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCarts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2FydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCarts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2FydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCarts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCarts/ShowCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2FydHNcU2hvd0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2l0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsCities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzQ2l0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsImages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzSW1hZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzSW1hZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsProperties/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzUHJvcGVydGllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsProperties/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzUHJvcGVydGllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsProperties/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzUHJvcGVydGllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsProperties/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzUHJvcGVydGllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsProperties/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzUHJvcGVydGllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsSellers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzU2VsbGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsSellers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzU2VsbGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsSellers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzU2VsbGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsSellers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzU2VsbGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsStates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzU3RhdGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsStates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzU3RhdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/EhsUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWhzVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/final proj/EasyHousingSolution/EasyHousingSolutions_WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-skq48b7vyu

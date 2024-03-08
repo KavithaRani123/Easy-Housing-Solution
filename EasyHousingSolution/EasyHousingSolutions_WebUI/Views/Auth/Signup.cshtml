@@ -1,0 +1,70 @@
+﻿@model EasyHousingSolutions_WebUI.Models.Signup
+
+@{
+    ViewData["Title"] = "Signup";
+}
+<center>
+<h1>𝐒𝐢𝐠𝐧 𝐔𝐩</h1>
+</center>
+
+
+<hr />
+<div class="row">
+    <center>
+    <div class="col-md-4">
+        <form asp-action="Signup">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            
+           
+ 
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    </center>
+</div>
+
+<center>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+</center>
+<style>
+    body {
+  /* background-image: url('');*/
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXjJUOZn39H3Q4MBjH2c0RNnhlHIHdVhMuQ&usqp=CAU');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.dropdown {
+  border-radius: 2px;
+  background-color: white;
+  padding: 10px;
+}
+</style>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

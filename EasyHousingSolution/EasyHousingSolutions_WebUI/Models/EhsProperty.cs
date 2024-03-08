@@ -1,0 +1,32 @@
+﻿namespace EasyHousingSolutions_WebUI.Models
+{
+    public class EhsProperty
+    {
+        public EhsProperty()
+        {
+            EhsCarts = new HashSet<EhsCart>();
+            EhsImages = new HashSet<EhsImage>();
+        }
+
+        public int PropertyId { get; set; }
+        public string PropertyName { get; set; } = null!;
+        public string PropertyType { get; set; } = null!;
+        public string PropertyOption { get; set; } = null!;
+        public string? Description { get; set; }
+        public string Address { get; set; } = null!;
+        public decimal PriceRange { get; set; }
+        public decimal InitialDeposit { get; set; }
+        public string LandMark { get; set; } = null!;
+        public bool IsActive { get; set; }
+        public int SellerId { get; set; }
+
+        public virtual EhsSeller Seller { get; set; } = null!;
+        public virtual ICollection<EhsCart> EhsCarts { get; set; }
+        public virtual ICollection<EhsImage> EhsImages { get; set; }
+
+        internal static object AsQueryable()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

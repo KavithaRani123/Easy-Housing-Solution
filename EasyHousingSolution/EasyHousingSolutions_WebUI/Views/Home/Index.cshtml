@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 style="color:darkgreen;">Welcome</h1>
+
+    </div>
+  
+
+    <center>
+    <h1 style="color:saddlebrown;"><b> Easy Housing Solution</b></h1>
+    <p>Contact us - <a href="EasyHousingSolutions.com"> Easy Housing Solutions</a></p>
+    
+    
+    <div  id="myDIV"><a style="text-decoration:none; color:cyan;" class="link text-light"  asp-area="" asp-controller="EhsStates" asp-action="Index"><h3>𝑺𝒕𝒂𝒕𝒆𝒔</h3></a></div> 
+    <div id="myDIV1"><a style="text-decoration:none; color:black;" class="link text-light" asp-area="" asp-controller="EhsImages" asp-action="Index"><h3>𝑰𝒎𝒂𝒈𝒆𝒔</h3></a></div>
+    <div id="myDIV2"><a style="text-decoration:none; color:black;" class="link text-light" asp-area="" asp-controller="EhsCities" asp-action="Index"><h3>𝑪𝒊𝒕𝒊𝒆𝒔</h3></a></div>
+   
+    </center>
+   
+<style>
+
+       
+body {
+  background-image: url('https://media.istockphoto.com/photos/new-homes-on-a-quiet-street-in-raleigh-nc-picture-id1319270783?k=20&m=1319270783&s=612x612&w=0&h=4f_1sjPhuaOrHQznzdle1xYEq0lyVNAa5kx32lppAwA=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+#myDIV {
+    
+  height:50px;
+  width:200px;
+  background-color:darkslateblue;
+  border: 1px solid black;
+  border-radius:50px;
+  padding:10px;
+  text-align:center;
+  float:left;
+  
+}
+#myDIV1{
+    
+  height:50px;
+  width:200px;
+  background-color:darkslateblue;
+  border: 1px solid black;
+  border-radius:50px;
+  padding:10px;
+  text-align:center;
+  
+  float:unset;
+}
+#myDIV2{
+    
+    height:50px;
+    width:200px;
+    background-color:darkslateblue;
+    border: 1px solid black;
+    border-radius:50px;
+    float:right;
+    padding:10px;
+    text-align:center;
+
+}
+/*p.dotted {border-style: dotted;}*/
+</style>
+@*<p class="dotted">A dotted border.</p>    *@
+    
+   
+

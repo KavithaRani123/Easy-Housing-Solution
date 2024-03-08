@@ -1,0 +1,82 @@
+﻿@model IEnumerable<EasyHousingSolutions_WebUI.Models.EhsBuyer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>HI</h1>
+
+
+<h1 style="background-color:#a0a0a0;">Welcome To Buyers List</h1>
+<style>
+    body {
+  /* background-image: url('');*/
+   background-image: url('https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_570/http://privatecompanymergers.com/wp-content/uploads/2018/04/buyer-list-570x380.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+</style>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BuyerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.BuyerId  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.BuyerId  }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.BuyerId })
+            </td>
+        </tr>
+}
+    </tbody>
+
+</table>
+
+
